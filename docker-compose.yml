@@ -1,0 +1,6 @@
+services:
+  tg-trello:
+    image: ghcr.io/koresent/tg-trello:latest
+    container_name: tg-trello
+    restart: unless-stopped
+    env_file: .env
